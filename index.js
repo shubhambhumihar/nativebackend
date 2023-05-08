@@ -29,6 +29,9 @@ const path = require("path");
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Server is working");
+});
 //! configurations
 
 // get file name and
